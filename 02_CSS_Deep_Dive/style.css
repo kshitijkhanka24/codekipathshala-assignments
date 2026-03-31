@@ -1,0 +1,103 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    color: #29294B;
+    background-color: #FCFCFF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 15px;
+}
+
+#links a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+#links {
+    display: flex;
+    
+    
+}
+
+#links div{
+    padding: 10px 15px;
+    margin: 0px 2px;
+    border-radius: 10px;
+}
+
+#links div:hover{
+    background-color: #F2F2F6;
+}
+
+#navbarActions{
+
+}
+
+#buyNowBtn{
+    background-image: linear-gradient(#7B78EA, #6360D9);
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#buyNowBtn:hover{
+    background-color: #4F4BBF;
+    box-shadow:  0 8px 16px 0  #4F4BBF;
+}
+
+#hero{
+    padding: 1% 15% 0% 15%;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+#hero h3{
+    font-size: 52px;
+    margin-bottom: 0;
+    
+}
+
+#hero span{
+    background-image: linear-gradient(#7B78EA, #6360D9);
+    background-clip: text;
+    color:transparent;
+    display: inline-block;
+}
+
+#hero p{
+    font-size: 18px;
+    color: #696981;
+    margin-bottom: 0;
+    font-weight: 400;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#exploreContainer{
+    display: flex;
+    padding: 0 15% 0 15%;
+    justify-content: space-between;
+    
+}
+#explore h5{
+    text-align: center;
+    color: #696981;
+}
+
+.exploreOptions{
+    background-color: #FFF;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 8px 16px 0 #F9F8FF;
+    font-weight: 400;
+    
+
+}
